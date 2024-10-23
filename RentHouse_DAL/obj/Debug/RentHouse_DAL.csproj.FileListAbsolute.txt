@@ -34,3 +34,15 @@ F:\ThanhCong\RentHouse_DAL\obj\Debug\RentHouse_DAL.csproj.CoreCompileInputs.cach
 F:\ThanhCong\RentHouse_DAL\obj\Debug\RentHous.7D0E6E23.Up2Date
 F:\ThanhCong\RentHouse_DAL\obj\Debug\RentHouse_DAL.dll
 F:\ThanhCong\RentHouse_DAL\obj\Debug\RentHouse_DAL.pdb
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\RentHouse_DAL.dll.config
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\RentHouse_DAL.dll
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\RentHouse_DAL.pdb
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\EntityFramework.dll
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\EntityFramework.xml
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.csproj.AssemblyReference.cache
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.csproj.CoreCompileInputs.cache
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHous.7D0E6E23.Up2Date
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.dll
+C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.pdb

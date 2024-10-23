@@ -24,7 +24,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
 
         private void frmQLHD_Load(object sender, EventArgs e)
         {
-            var chiTietHopDongs = chiTietHDService.GetAllChiTietHD();
+            var chiTietHopDongs = chiTietHDService.GetAllChiTietHopDong();
             BindGrid(chiTietHopDongs);
         }
         // Hiển thị dữ liệu lên datagridview
@@ -52,7 +52,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
         private void txtTimKiemHD_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtTimKiemHD.Text.Trim();
-            var ctHopDongs = chiTietHDService.GetAllChiTietHD().Where(ctHD => ctHD.SoHopDong.Contains(keyword) ||
+            var ctHopDongs = chiTietHDService.GetAllChiTietHopDong().Where(ctHD => ctHD.SoHopDong.Contains(keyword) ||
                                                                       ctHD.HopDong.KhachThue.HoTen.Contains(keyword) ||
                                                                       ctHD.PhongTro.MaPhong.Contains(keyword) ||
                                                                       ctHD.TinhTrangKetThuc.Contains(keyword)).ToList();
@@ -64,12 +64,12 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
         {
             if (cbHienThiHD.Checked)
             {
-                var chiTietHopDongs = chiTietHDService.GetAllChiTietHD().Where(hd => hd.TinhTrangKetThuc == "Đã kết thúc").ToList();
+                var chiTietHopDongs = chiTietHDService.GetAllChiTietHopDong().Where(hd => hd.TinhTrangKetThuc == "Đã kết thúc").ToList();
                 BindGrid(chiTietHopDongs);
             }
             else
             {
-                var chiTietHopDongs = chiTietHDService.GetAllChiTietHD();
+                var chiTietHopDongs = chiTietHDService.GetAllChiTietHopDong();
                 BindGrid(chiTietHopDongs);
             }
         }

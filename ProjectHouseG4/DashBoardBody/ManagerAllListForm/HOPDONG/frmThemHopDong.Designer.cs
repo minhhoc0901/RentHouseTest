@@ -149,6 +149,7 @@
             this.grCTHD.Size = new System.Drawing.Size(669, 761);
             this.grCTHD.TabIndex = 3;
             this.grCTHD.Text = "Chi Tiết Hợp Đồng";
+            this.grCTHD.Click += new System.EventHandler(this.grCTHD_Click);
             // 
             // label8
             // 
@@ -689,7 +690,6 @@
             this.Controls.Add(this.guna2GroupBox1);
             this.Name = "frmThemHopDong";
             this.Text = "Chi Tiết Hợp Đồng";
-            //this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmThemHopDong_FormClosing);
             this.Load += new System.EventHandler(this.frmThemHopDong_Load);
             this.grCTHD.ResumeLayout(false);
             this.grCTHD.PerformLayout();

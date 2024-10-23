@@ -11,7 +11,7 @@ namespace RentHouse_BUS
     public class ChiTietHopDongService
     {
         RentHouseContextDB contextDB = new RentHouseContextDB();
-        public List<ChiTietHopDong> GetAllChiTietHD()
+        public List<ChiTietHopDong> GetAllChiTietHopDong()
         {
             return contextDB.ChiTietHopDongs.ToList();
         }
@@ -50,6 +50,25 @@ namespace RentHouse_BUS
                 contextDB.ChiTietHopDongs.Remove(chiTietHD);
                 contextDB.SaveChanges();
             }
+        }
+        public void CapNhatTrangThaiHopDong(string maPhong, string tinhTrangHopDong)
+        {
+            var phongTro = contextDB.PhongTroes.FirstOrDefault(p => p.MaPhong == maPhong);
+
+            if (phongTro == null)
+            {
+                throw new Exception("Phòng không tồn tại");
+            }
+
+            if (tinhTrangHopDong == "Đã kết thúc")
+            {
+                phongTro.TrangThai = "Phòng trống";
+            }
+            else if (tinhTrangHopDong == "Chưa kết thúc")
+            {
+                phongTro.TrangThai = "Phòng đã cho thuê";
+            }
+            contextDB.SaveChanges();
         }
     }
 }
