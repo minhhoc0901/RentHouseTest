@@ -9,14 +9,42 @@ namespace RentHouse_BUS
 {
     public class PhongTroService
     {
-        RentHouseContextDB contextDB = new RentHouseContextDB();
+        RentHouseContextDB db = new RentHouseContextDB();
         public List<PhongTro> GetAllPhongTro()
         {
-            return contextDB.PhongTroes.ToList();
+            return db.PhongTroes.ToList();
         }
         public List<PhongTro> GetAllNoDaThue() 
         {
-            return contextDB.PhongTroes.Where(pt =>!( pt.TrangThai == "Phòng đã cho thuê")).ToList();
+            return db.PhongTroes.Where(pt =>!( pt.TrangThai == "Phòng đã cho thuê")).ToList();
+        }
+        public void AddPhongTro(PhongTro phongTro)
+        {
+            db.PhongTroes.Add(phongTro);
+            db.SaveChanges();
+        }
+        public void UpdatePhongTro(PhongTro phongTro)
+        {
+            db.SaveChanges();
+        }
+        public void DelPhongTro(string maPhong)
+        {
+            var phongTro = db.PhongTroes.FirstOrDefault(p => p.MaPhong == maPhong);
+            if (phongTro == null)
+            {
+                throw new Exception("Phòng không tồn tại hoặc đã bị xóa");
+            }
+            db.PhongTroes.Remove(phongTro);
+            db.SaveChanges();
+        }
+        public void CapNhatTrangThaiPhong(string maPhong, string tinhTrang)
+        {
+            var phongTro = db.PhongTroes.FirstOrDefault(p => p.MaPhong == maPhong);
+            if (phongTro != null)
+            {
+                phongTro.TrangThai = tinhTrang;
+                db.SaveChanges();
+            }
         }
     }
 }

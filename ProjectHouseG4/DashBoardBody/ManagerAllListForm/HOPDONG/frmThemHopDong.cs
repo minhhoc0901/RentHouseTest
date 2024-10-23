@@ -43,7 +43,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
             dateNgayBD.Value = DateTime.Now;
             dateNgayKT.Value = DateTime.Today.AddYears(1);
             KhoaMo(true);
-            var chiTietHopDongs = chiTietHDService.GetAllChiTietHD();
+            var chiTietHopDongs = chiTietHDService.GetAllChiTietHopDong();
             BindDataCTHopDong(chiTietHopDongs);
 
         }
@@ -221,7 +221,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
             }
             else 
             {
-                var cthopDongs = chiTietHDService.GetAllChiTietHD()
+                var cthopDongs = chiTietHDService.GetAllChiTietHopDong()
                     .Where(ctHD => ctHD.SoHopDong.ToLower().Contains(keyword) ||
                                    ctHD.MaPhong.ToLower().Contains(keyword) ||
                                    ctHD.GiaThue.ToString().Contains(keyword) ||
@@ -360,7 +360,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
                         return;
                     }
                     var hopDongs = hopDongService.GetHopDongById(txtCTSoHD.Text);
-                    var cthopDongs = chiTietHDService.GetAllChiTietHD().FirstOrDefault(s => s.SoHopDong == txtCTSoHD.Text);
+                    var cthopDongs = chiTietHDService.GetAllChiTietHopDong().FirstOrDefault(s => s.SoHopDong == txtCTSoHD.Text);
 
                     if (hopDongs != null)
                     {
@@ -414,7 +414,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
                         MessageBox.Show("Thêm mới dữ liệu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     BindDataHopDong(hopDongService.GetAllHopDong());
-                    BindDataCTHopDong(chiTietHDService.GetAllChiTietHD());
+                    BindDataCTHopDong(chiTietHDService.GetAllChiTietHopDong());
                     RestData();
 
                     //txtCTSoHD.Clear();
@@ -518,7 +518,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
             {
                 chiTietHDService.DeleteChiTietHD(int.Parse(maCTHD));
                 hopDongService.DeleteHopDong(txtCTSoHD.Text);
-                BindDataCTHopDong(chiTietHDService.GetAllChiTietHD());
+                BindDataCTHopDong(chiTietHDService.GetAllChiTietHopDong());
                 BindDataHopDong(hopDongService.GetAllHopDong());
             }
             RestData();   
@@ -541,7 +541,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
             {
                 DataGridViewRow row = dgvCTHD.Rows[e.RowIndex];
                 string maCTHD = row.Cells[0].Value.ToString();
-                var cthopDongs = chiTietHDService.GetAllChiTietHD().FirstOrDefault(hd => hd.MaCTHD.ToString() == maCTHD);
+                var cthopDongs = chiTietHDService.GetAllChiTietHopDong().FirstOrDefault(hd => hd.MaCTHD.ToString() == maCTHD);
                 if (cthopDongs != null && cthopDongs.HopDong != null)
                 {
                     txtMaCTHD.Text = cthopDongs.MaCTHD.ToString();
@@ -558,6 +558,11 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
                     txtGhiChus.Text = cthopDongs.GhiChu;
                 }
             }
+        }
+
+        private void grCTHD_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

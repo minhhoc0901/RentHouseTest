@@ -71,23 +71,11 @@
     <Compile Include="DashBoardBody\ManagerAllListForm\HOPDONG\frmThemHopDong.Designer.cs">
       <DependentUpon>frmThemHopDong.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\AddRoom.cs">
+    <Compile Include="DashBoardBody\ManagerAllListForm\KHACHHANG\UpdateCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\AddRoom.Designer.cs">
-      <DependentUpon>AddRoom.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\DeleteRoom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\DeleteRoom.Designer.cs">
-      <DependentUpon>DeleteRoom.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\EditRoom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\EditRoom.Designer.cs">
-      <DependentUpon>EditRoom.cs</DependentUpon>
+    <Compile Include="DashBoardBody\ManagerAllListForm\KHACHHANG\UpdateCustomer.Designer.cs">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\Form1.cs">
       <SubType>Form</SubType>
@@ -95,10 +83,10 @@
     <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\Form2.cs">
+    <Compile Include="DashBoardBody\ManagerAllListForm\KHACHHANG\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\Form2.Designer.cs">
+    <Compile Include="DashBoardBody\ManagerAllListForm\KHACHHANG\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="DashBoardBody\Form_DashBoard.cs">
@@ -157,10 +145,13 @@
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\HOPDONG\frmThemHopDong.resx">
       <DependentUpon>frmThemHopDong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\KHACHHANG\UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\PHONG\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\Form2.resx">
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\KHACHHANG\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardBody\Form_DashBoard.resx">
@@ -174,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\PHONG\UpdateRoom.resx">
+      <DependentUpon>UpdateRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_App\Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
@@ -232,5 +226,6 @@
       <Name>RentHouse_DAL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
