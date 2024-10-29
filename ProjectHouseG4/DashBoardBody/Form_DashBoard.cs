@@ -84,14 +84,14 @@ namespace RentHouse.DashBoardBody
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            ShowFormInPanel(form4);
+            //FormThem form4 = new FormThem();
+            //ShowFormInPanel(form4);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            frmQLHD frmQLHD = new frmQLHD();
-            ShowFormInPanel(frmQLHD);
+            //frmQLHD frmQLHD = new frmQLHD();
+            //ShowFormInPanel(frmQLHD);
         }
 
         private void button6_Click(object sender, EventArgs e)

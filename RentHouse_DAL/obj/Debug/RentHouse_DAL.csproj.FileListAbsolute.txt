@@ -46,3 +46,15 @@ C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHou
 C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHous.7D0E6E23.Up2Date
 C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.dll
 C:\Users\tuana\OneDrive\Documents\DoAn\RentHouse\RentHouse_DAL\obj\Debug\RentHouse_DAL.pdb
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\RentHouse_DAL.dll.config
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\RentHouse_DAL.dll
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\RentHouse_DAL.pdb
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\EntityFramework.dll
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\EntityFramework.xml
+D:\TranHuy\RentHouseTest\RentHouse_DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\TranHuy\RentHouseTest\RentHouse_DAL\obj\Debug\RentHouse_DAL.csproj.AssemblyReference.cache
+D:\TranHuy\RentHouseTest\RentHouse_DAL\obj\Debug\RentHouse_DAL.csproj.CoreCompileInputs.cache
+D:\TranHuy\RentHouseTest\RentHouse_DAL\obj\Debug\RentHous.7D0E6E23.Up2Date
+D:\TranHuy\RentHouseTest\RentHouse_DAL\obj\Debug\RentHouse_DAL.dll
+D:\TranHuy\RentHouseTest\RentHouse_DAL\obj\Debug\RentHouse_DAL.pdb

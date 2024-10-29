@@ -75,7 +75,7 @@ namespace RentHouse.DashBoardBody
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi ở form 1", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi ở form 1" +ex, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
