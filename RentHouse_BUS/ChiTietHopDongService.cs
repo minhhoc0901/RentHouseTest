@@ -19,6 +19,10 @@ namespace RentHouse_BUS
         {
             return contextDB.ChiTietHopDongs.Find(id);
         }
+        public List<ChiTietHopDong> GetAllChuaketThuc()
+        {
+            return contextDB.ChiTietHopDongs.Where(pt => !(pt.TinhTrangKetThuc == "Đã kết thúc")).ToList();
+        }
         public void addChiTietHD(ChiTietHopDong chiTietHD)
         {
             
