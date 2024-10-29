@@ -91,7 +91,23 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
 
         }
 
-       
+        private void btnInHD_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvQLHopDong.SelectedRows.Count > 0)
+                {
+                    var selectedRow = dgvQLHopDong.SelectedRows[0];
+                    string soHopDong = selectedRow.Cells[0].Value.ToString();
+
+                    frmInHD printForm = new frmInHD(soHopDong);
+                    printForm.ShowDialog();
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Vui lòng chọn hợp đồng cần in");
+            }
+        }
     }
 }
 
