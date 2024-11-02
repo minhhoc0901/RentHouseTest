@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -150,6 +151,7 @@
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dgvKhach.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvKhach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
             this.dgvKhach.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(45)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
@@ -183,7 +185,7 @@
             this.dgvKhach.RowHeadersVisible = false;
             this.dgvKhach.RowHeadersWidth = 51;
             this.dgvKhach.RowTemplate.Height = 24;
-            this.dgvKhach.Size = new System.Drawing.Size(1097, 547);
+            this.dgvKhach.Size = new System.Drawing.Size(1097, 523);
             this.dgvKhach.TabIndex = 20;
             this.dgvKhach.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvKhach.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -213,36 +215,42 @@
             this.col_MaKhachHang.HeaderText = "Mã khách hàng";
             this.col_MaKhachHang.MinimumWidth = 6;
             this.col_MaKhachHang.Name = "col_MaKhachHang";
+            this.col_MaKhachHang.Width = 183;
             // 
             // col_HoTen
             // 
             this.col_HoTen.HeaderText = "Họ tên";
             this.col_HoTen.MinimumWidth = 6;
             this.col_HoTen.Name = "col_HoTen";
+            this.col_HoTen.Width = 183;
             // 
             // col_CCCD
             // 
             this.col_CCCD.HeaderText = "CCCD";
             this.col_CCCD.MinimumWidth = 6;
             this.col_CCCD.Name = "col_CCCD";
+            this.col_CCCD.Width = 183;
             // 
             // col_SDT
             // 
             this.col_SDT.HeaderText = "Số điện thoại";
             this.col_SDT.MinimumWidth = 6;
             this.col_SDT.Name = "col_SDT";
+            this.col_SDT.Width = 182;
             // 
             // col_DiaChi
             // 
             this.col_DiaChi.HeaderText = "Địa chỉ";
             this.col_DiaChi.MinimumWidth = 6;
             this.col_DiaChi.Name = "col_DiaChi";
+            this.col_DiaChi.Width = 183;
             // 
             // col_GhiChu
             // 
             this.col_GhiChu.HeaderText = "Ghi chú";
             this.col_GhiChu.MinimumWidth = 6;
             this.col_GhiChu.Name = "col_GhiChu";
+            this.col_GhiChu.Width = 183;
             // 
             // pictureBox2
             // 
@@ -279,6 +287,7 @@
             this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.dgvKhach);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);

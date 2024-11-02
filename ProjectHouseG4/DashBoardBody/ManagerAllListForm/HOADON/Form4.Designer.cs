@@ -34,6 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThem));
             this.btnDong = new System.Windows.Forms.Button();
             this.rabDV = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
@@ -263,22 +264,23 @@
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(131, 23);
+            this.txtTimKiem.Location = new System.Drawing.Point(136, 23);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(203, 22);
+            this.txtTimKiem.Size = new System.Drawing.Size(198, 22);
             this.txtTimKiem.TabIndex = 6;
             this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.btnXoa.BackColor = System.Drawing.Color.LightGray;
+            this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnXoa.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXoa.Location = new System.Drawing.Point(509, 729);
+            this.btnXoa.ForeColor = System.Drawing.Color.Black;
+            this.btnXoa.Location = new System.Drawing.Point(555, 729);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(174, 41);
+            this.btnXoa.Size = new System.Drawing.Size(128, 41);
             this.btnXoa.TabIndex = 7;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -351,10 +353,11 @@
             // 
             // btnTHemHD
             // 
-            this.btnTHemHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.btnTHemHD.BackColor = System.Drawing.Color.LightGray;
+            this.btnTHemHD.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnTHemHD.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTHemHD.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTHemHD.Location = new System.Drawing.Point(338, 729);
+            this.btnTHemHD.ForeColor = System.Drawing.Color.Black;
+            this.btnTHemHD.Location = new System.Drawing.Point(369, 729);
             this.btnTHemHD.Margin = new System.Windows.Forms.Padding(4);
             this.btnTHemHD.Name = "btnTHemHD";
             this.btnTHemHD.Size = new System.Drawing.Size(163, 40);
@@ -412,10 +415,10 @@
             // 
             // txtTongtienDV
             // 
-            this.txtTongtienDV.Location = new System.Drawing.Point(166, 688);
+            this.txtTongtienDV.Location = new System.Drawing.Point(191, 688);
             this.txtTongtienDV.Margin = new System.Windows.Forms.Padding(4);
             this.txtTongtienDV.Name = "txtTongtienDV";
-            this.txtTongtienDV.Size = new System.Drawing.Size(324, 22);
+            this.txtTongtienDV.Size = new System.Drawing.Size(299, 22);
             this.txtTongtienDV.TabIndex = 76;
             // 
             // txtDV
@@ -451,7 +454,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label3.Location = new System.Drawing.Point(8, 691);
+            this.label3.Location = new System.Drawing.Point(9, 691);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 19);
@@ -525,13 +528,14 @@
             // 
             // btnTHemCTHD
             // 
-            this.btnTHemCTHD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.btnTHemCTHD.BackColor = System.Drawing.Color.LightGray;
+            this.btnTHemCTHD.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnTHemCTHD.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTHemCTHD.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTHemCTHD.Location = new System.Drawing.Point(140, 730);
+            this.btnTHemCTHD.ForeColor = System.Drawing.Color.Black;
+            this.btnTHemCTHD.Location = new System.Drawing.Point(158, 728);
             this.btnTHemCTHD.Margin = new System.Windows.Forms.Padding(4);
             this.btnTHemCTHD.Name = "btnTHemCTHD";
-            this.btnTHemCTHD.Size = new System.Drawing.Size(190, 40);
+            this.btnTHemCTHD.Size = new System.Drawing.Size(187, 41);
             this.btnTHemCTHD.TabIndex = 13;
             this.btnTHemCTHD.Text = "Cập nhật Chi Tiết Hóa Đơn";
             this.btnTHemCTHD.UseVisualStyleBackColor = false;
@@ -654,13 +658,13 @@
             this.txtGiaThue.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiaThue.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtGiaThue.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaThue.Location = new System.Drawing.Point(161, 191);
+            this.txtGiaThue.Location = new System.Drawing.Point(178, 191);
             this.txtGiaThue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGiaThue.Name = "txtGiaThue";
             this.txtGiaThue.PasswordChar = '\0';
             this.txtGiaThue.PlaceholderText = "";
             this.txtGiaThue.SelectedText = "";
-            this.txtGiaThue.Size = new System.Drawing.Size(331, 25);
+            this.txtGiaThue.Size = new System.Drawing.Size(314, 25);
             this.txtGiaThue.TabIndex = 59;
             // 
             // txtKhachThue
@@ -674,20 +678,21 @@
             this.txtKhachThue.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtKhachThue.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtKhachThue.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtKhachThue.Location = new System.Drawing.Point(161, 146);
+            this.txtKhachThue.Location = new System.Drawing.Point(178, 146);
             this.txtKhachThue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKhachThue.Name = "txtKhachThue";
             this.txtKhachThue.PasswordChar = '\0';
             this.txtKhachThue.PlaceholderText = "";
             this.txtKhachThue.SelectedText = "";
-            this.txtKhachThue.Size = new System.Drawing.Size(331, 25);
+            this.txtKhachThue.Size = new System.Drawing.Size(314, 25);
             this.txtKhachThue.TabIndex = 58;
             // 
             // btnTinhTien
             // 
-            this.btnTinhTien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.btnTinhTien.BackColor = System.Drawing.Color.LightGray;
+            this.btnTinhTien.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnTinhTien.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTinhTien.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTinhTien.ForeColor = System.Drawing.Color.Black;
             this.btnTinhTien.Location = new System.Drawing.Point(16, 730);
             this.btnTinhTien.Margin = new System.Windows.Forms.Padding(4);
             this.btnTinhTien.Name = "btnTinhTien";
@@ -711,6 +716,7 @@
             this.grbThongtin.Controls.Add(this.rabCTHopDong);
             this.grbThongtin.Controls.Add(this.rabCTHoaDon);
             this.grbThongtin.Controls.Add(this.rabDV);
+            this.grbThongtin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grbThongtin.Location = new System.Drawing.Point(539, 57);
             this.grbThongtin.Margin = new System.Windows.Forms.Padding(4);
             this.grbThongtin.Name = "grbThongtin";
@@ -718,7 +724,6 @@
             this.grbThongtin.Size = new System.Drawing.Size(699, 784);
             this.grbThongtin.TabIndex = 11;
             this.grbThongtin.TabStop = false;
-            this.grbThongtin.Text = "Thông tin";
             // 
             // dgvThongtin
             // 
@@ -829,6 +834,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnDong);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormThem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

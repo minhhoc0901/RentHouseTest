@@ -30,17 +30,28 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInHoaDon));
+            this.ReportHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.quanLyPhongTro2DataSet1 = new RentHouse.QuanLyPhongTro2DataSet1();
             this.reportHoaDonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.quanLyPhongTro2DataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.quanLyPhongTro2DataSet1 = new RentHouse.QuanLyPhongTro2DataSet1();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.reportHoaDonTableAdapter = new RentHouse.QuanLyPhongTro2DataSet1TableAdapters.ReportHoaDonTableAdapter();
-            this.ReportHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.ReportHoaDonBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ReportHoaDonBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // ReportHoaDonBindingSource
+            // 
+            this.ReportHoaDonBindingSource.DataMember = "ReportHoaDon";
+            this.ReportHoaDonBindingSource.DataSource = this.quanLyPhongTro2DataSet1;
+            // 
+            // quanLyPhongTro2DataSet1
+            // 
+            this.quanLyPhongTro2DataSet1.DataSetName = "QuanLyPhongTro2DataSet1";
+            this.quanLyPhongTro2DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportHoaDonBindingSource1
             // 
@@ -51,11 +62,6 @@
             // 
             this.quanLyPhongTro2DataSet1BindingSource.DataSource = this.quanLyPhongTro2DataSet1;
             this.quanLyPhongTro2DataSet1BindingSource.Position = 0;
-            // 
-            // quanLyPhongTro2DataSet1
-            // 
-            this.quanLyPhongTro2DataSet1.DataSetName = "QuanLyPhongTro2DataSet1";
-            this.quanLyPhongTro2DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
@@ -78,24 +84,20 @@
             // 
             this.reportHoaDonTableAdapter.ClearBeforeFill = true;
             // 
-            // ReportHoaDonBindingSource
-            // 
-            this.ReportHoaDonBindingSource.DataMember = "ReportHoaDon";
-            this.ReportHoaDonBindingSource.DataSource = this.quanLyPhongTro2DataSet1;
-            // 
             // frmInHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1086, 559);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmInHoaDon";
             this.Text = "frmInHoaDon";
             this.Load += new System.EventHandler(this.frmInHoaDon_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ReportHoaDonBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ReportHoaDonBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

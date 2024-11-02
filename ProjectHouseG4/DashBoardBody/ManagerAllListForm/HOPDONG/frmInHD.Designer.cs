@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInHD));
             this.ReportViewHDBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.quanLyPhongTro2DataSet = new RentHouse.QuanLyPhongTro2DataSet();
             this.quanLyPhongTro2DataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -83,6 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1194, 1055);
             this.Controls.Add(this.rptHD);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmInHD";
             this.Text = "In Hợp Đồng";
             this.Load += new System.EventHandler(this.frmInHD_Load);
