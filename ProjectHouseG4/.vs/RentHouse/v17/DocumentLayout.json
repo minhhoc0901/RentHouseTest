@@ -3,63 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hoadon\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hoadon\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hoadon\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hoadon\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hoadon\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\hoadon\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hoadon\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hoadon\\frminhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\hoadon\\frminhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hoadon\\frminhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frmthemhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frmthemhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\phong\\updateroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\phong\\updateroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\phong\\updateroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\khachhang\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\khachhang\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\khachhang\\updatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\phong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\phong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\phong\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\qldv\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\qldv\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\qldv\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\login_app\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\login_app\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:login_app\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\khachhang\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -83,14 +79,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOADON\\Form3.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOADON\\Form3.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOADON\\Form3.cs [Design]",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOADON\\Form3.cs [Design]",
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOADON\\Form4.cs",
+              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOADON\\Form4.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOADON\\Form4.cs",
+              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOADON\\Form4.cs",
+              "ViewState": "AgIAAKsBAAAAAAAAAAD4v8EBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:26:59.011Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T12:59:00.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:26:42.66Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:26:42.66Z"
             },
             {
               "$type": "Document",
@@ -125,8 +121,7 @@
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:26:38.837Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:26:38.837Z"
             },
             {
               "$type": "Document",
@@ -143,102 +138,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmThemHopDong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmThemHopDong.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmThemHopDong.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmThemHopDong.cs [Design]",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmThemHopDong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:26:34.307Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:26:24.476Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:26:24.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "UpdateCustomer.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\KHACHHANG\\UpdateCustomer.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\UpdateCustomer.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\KHACHHANG\\UpdateCustomer.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\UpdateCustomer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:25:01.622Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:25:01.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "UpdateRoom.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\PHONG\\UpdateRoom.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\PHONG\\UpdateRoom.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\PHONG\\UpdateRoom.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\PHONG\\UpdateRoom.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:24:52.546Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:24:52.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\PHONG\\Form1.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\PHONG\\Form1.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\PHONG\\Form1.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\PHONG\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:24:47.798Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:24:47.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Form_Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\Login_App\\Form_Login.cs",
               "RelativeDocumentMoniker": "Login_App\\Form_Login.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\Login_App\\Form_Login.cs [Design]",
               "RelativeToolTip": "Login_App\\Form_Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:23:59.029Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:23:59.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Form_DashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\Form_DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\Form_DashBoard.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\Form_DashBoard.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\Form_DashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:11:12.692Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:11:12.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Form6.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\QLDV\\Form6.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\QLDV\\Form6.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\QLDV\\Form6.cs [Design]",
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\QLDV\\Form6.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:10:29.998Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T08:10:29.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs",
               "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs",
@@ -246,12 +222,11 @@
               "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\KHACHHANG\\Form2.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAASwB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:02:22.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T08:02:22.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -259,8 +234,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T07:57:07.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T07:57:07.193Z"
             }
           ]
         },
