@@ -55,8 +55,9 @@ namespace RentHouse.DashBoardBody
                 dgvPhong.Rows[index].Cells["col_GiaPhong"].Value = phong.GiaPhong;
                 dgvPhong.Rows[index].Cells["col_DienTich"].Value = phong.DienTich;
                 dgvPhong.Rows[index].Cells["col_TrangThai"].Value = phong.TrangThai;
-                dgvPhong.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             }
+
+
         }
 
         private void btnCapNhat_Click(object sender, EventArgs e)
@@ -187,6 +188,11 @@ namespace RentHouse.DashBoardBody
         }
 
         private void dgvPhong_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvPhong_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
         }

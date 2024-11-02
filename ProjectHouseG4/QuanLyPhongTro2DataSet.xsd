@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QuanLyPhongTro2DataSet" targetNamespace="http://tempuri.org/QuanLyPhongTro2DataSet.xsd" xmlns:mstns="http://tempuri.org/QuanLyPhongTro2DataSet.xsd" xmlns="http://tempuri.org/QuanLyPhongTro2DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanLyPhongTro2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanLyPhongTro2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.RentHouse.Properties.Settings.GlobalReference.Default.QuanLyPhongTro2ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReportViewHDTableAdapter" GeneratorDataComponentClassName="ReportViewHDTableAdapter" Name="ReportViewHD" UserDataComponentName="ReportViewHDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLyPhongTro2ConnectionString (Settings)" DbObjectName="QuanLyPhongTro2.dbo.ReportViewHD" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SoHopDong, MaPhong, GiaThue, TienCoc, NgayLapHD, NgayBatDau, NgayKetThuc, TinhTrangKetThuc, HoTen, CCCD, DiaChi, SDT FROM dbo.ReportViewHD</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SoHopDong" DataSetColumn="SoHopDong" />
+              <Mapping SourceColumn="MaPhong" DataSetColumn="MaPhong" />
+              <Mapping SourceColumn="GiaThue" DataSetColumn="GiaThue" />
+              <Mapping SourceColumn="TienCoc" DataSetColumn="TienCoc" />
+              <Mapping SourceColumn="NgayLapHD" DataSetColumn="NgayLapHD" />
+              <Mapping SourceColumn="NgayBatDau" DataSetColumn="NgayBatDau" />
+              <Mapping SourceColumn="NgayKetThuc" DataSetColumn="NgayKetThuc" />
+              <Mapping SourceColumn="TinhTrangKetThuc" DataSetColumn="TinhTrangKetThuc" />
+              <Mapping SourceColumn="HoTen" DataSetColumn="HoTen" />
+              <Mapping SourceColumn="CCCD" DataSetColumn="CCCD" />
+              <Mapping SourceColumn="DiaChi" DataSetColumn="DiaChi" />
+              <Mapping SourceColumn="SDT" DataSetColumn="SDT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QuanLyPhongTro2DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="QuanLyPhongTro2DataSet" msprop:Generator_DataSetName="QuanLyPhongTro2DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReportViewHD" msprop:Generator_RowEvHandlerName="ReportViewHDRowChangeEventHandler" msprop:Generator_RowDeletedName="ReportViewHDRowDeleted" msprop:Generator_RowDeletingName="ReportViewHDRowDeleting" msprop:Generator_RowEvArgName="ReportViewHDRowChangeEvent" msprop:Generator_TablePropName="ReportViewHD" msprop:Generator_RowChangedName="ReportViewHDRowChanged" msprop:Generator_RowChangingName="ReportViewHDRowChanging" msprop:Generator_TableClassName="ReportViewHDDataTable" msprop:Generator_RowClassName="ReportViewHDRow" msprop:Generator_TableVarName="tableReportViewHD" msprop:Generator_UserTableName="ReportViewHD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SoHopDong" msprop:Generator_ColumnPropNameInRow="SoHopDong" msprop:Generator_ColumnPropNameInTable="SoHopDongColumn" msprop:Generator_ColumnVarNameInTable="columnSoHopDong" msprop:Generator_UserColumnName="SoHopDong" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaPhong" msprop:Generator_ColumnPropNameInRow="MaPhong" msprop:Generator_ColumnPropNameInTable="MaPhongColumn" msprop:Generator_ColumnVarNameInTable="columnMaPhong" msprop:Generator_UserColumnName="MaPhong" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GiaThue" msprop:Generator_ColumnPropNameInRow="GiaThue" msprop:Generator_ColumnPropNameInTable="GiaThueColumn" msprop:Generator_ColumnVarNameInTable="columnGiaThue" msprop:Generator_UserColumnName="GiaThue" type="xs:double" minOccurs="0" />
+              <xs:element name="TienCoc" msprop:Generator_ColumnPropNameInRow="TienCoc" msprop:Generator_ColumnPropNameInTable="TienCocColumn" msprop:Generator_ColumnVarNameInTable="columnTienCoc" msprop:Generator_UserColumnName="TienCoc" type="xs:double" minOccurs="0" />
+              <xs:element name="NgayLapHD" msprop:Generator_ColumnPropNameInRow="NgayLapHD" msprop:Generator_ColumnPropNameInTable="NgayLapHDColumn" msprop:Generator_ColumnVarNameInTable="columnNgayLapHD" msprop:Generator_UserColumnName="NgayLapHD" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NgayBatDau" msprop:Generator_ColumnPropNameInRow="NgayBatDau" msprop:Generator_ColumnPropNameInTable="NgayBatDauColumn" msprop:Generator_ColumnVarNameInTable="columnNgayBatDau" msprop:Generator_UserColumnName="NgayBatDau" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NgayKetThuc" msprop:Generator_ColumnPropNameInRow="NgayKetThuc" msprop:Generator_ColumnPropNameInTable="NgayKetThucColumn" msprop:Generator_ColumnVarNameInTable="columnNgayKetThuc" msprop:Generator_UserColumnName="NgayKetThuc" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TinhTrangKetThuc" msprop:Generator_ColumnPropNameInRow="TinhTrangKetThuc" msprop:Generator_ColumnPropNameInTable="TinhTrangKetThucColumn" msprop:Generator_ColumnVarNameInTable="columnTinhTrangKetThuc" msprop:Generator_UserColumnName="TinhTrangKetThuc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoTen" msprop:Generator_ColumnPropNameInRow="HoTen" msprop:Generator_ColumnPropNameInTable="HoTenColumn" msprop:Generator_ColumnVarNameInTable="columnHoTen" msprop:Generator_UserColumnName="HoTen" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CCCD" msprop:Generator_ColumnPropNameInRow="CCCD" msprop:Generator_ColumnPropNameInTable="CCCDColumn" msprop:Generator_ColumnVarNameInTable="columnCCCD" msprop:Generator_UserColumnName="CCCD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DiaChi" msprop:Generator_ColumnPropNameInRow="DiaChi" msprop:Generator_ColumnPropNameInTable="DiaChiColumn" msprop:Generator_ColumnVarNameInTable="columnDiaChi" msprop:Generator_UserColumnName="DiaChi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SDT" msprop:Generator_ColumnPropNameInRow="SDT" msprop:Generator_ColumnPropNameInTable="SDTColumn" msprop:Generator_ColumnVarNameInTable="columnSDT" msprop:Generator_UserColumnName="SDT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

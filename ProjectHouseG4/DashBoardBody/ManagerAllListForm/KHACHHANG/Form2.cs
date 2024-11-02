@@ -58,7 +58,6 @@ namespace RentHouse.DashBoardBody
                     dgvKhach.Rows[index].Cells["col_SDT"].Value = item.SDT;
                     dgvKhach.Rows[index].Cells["col_DiaChi"].Value = item.DiaChi;
                     dgvKhach.Rows[index].Cells["col_GhiChu"].Value = item.GhiChu;
-                    dgvKhach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
                 }
             }
             catch (Exception ex)
@@ -157,6 +156,11 @@ namespace RentHouse.DashBoardBody
             {
                 MessageBox.Show($"Lỗi khi tìm kiếm dữ liệu, lỗi: {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void dgvKhach_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

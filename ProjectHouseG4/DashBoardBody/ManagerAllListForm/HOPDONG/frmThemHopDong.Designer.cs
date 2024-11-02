@@ -34,6 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThemHopDong));
             this.label1 = new System.Windows.Forms.Label();
             this.dateNgayKT = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.dateNgayBD = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -79,17 +80,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 609);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label1.Location = new System.Drawing.Point(24, 609);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(103, 19);
             this.label1.TabIndex = 33;
             this.label1.Text = "Trạng Thái :";
             // 
             // dateNgayKT
             // 
             this.dateNgayKT.Checked = true;
-            this.dateNgayKT.FillColor = System.Drawing.SystemColors.Window;
+            this.dateNgayKT.FillColor = System.Drawing.Color.LightPink;
             this.dateNgayKT.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dateNgayKT.ForeColor = System.Drawing.Color.Black;
             this.dateNgayKT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateNgayKT.Location = new System.Drawing.Point(239, 533);
             this.dateNgayKT.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -102,8 +107,9 @@
             // dateNgayBD
             // 
             this.dateNgayBD.Checked = true;
-            this.dateNgayBD.FillColor = System.Drawing.SystemColors.Window;
+            this.dateNgayBD.FillColor = System.Drawing.Color.LightPink;
             this.dateNgayBD.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dateNgayBD.ForeColor = System.Drawing.Color.Black;
             this.dateNgayBD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateNgayBD.Location = new System.Drawing.Point(239, 465);
             this.dateNgayBD.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -142,21 +148,26 @@
             this.grCTHD.Controls.Add(this.txtTenKT);
             this.grCTHD.Controls.Add(this.txtMaKT);
             this.grCTHD.Controls.Add(this.txtCTSoHD);
-            this.grCTHD.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.grCTHD.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
+            this.grCTHD.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grCTHD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.grCTHD.Location = new System.Drawing.Point(12, 1);
             this.grCTHD.Name = "grCTHD";
             this.grCTHD.Size = new System.Drawing.Size(669, 761);
             this.grCTHD.TabIndex = 3;
             this.grCTHD.Text = "Chi Tiết Hợp Đồng";
+            this.grCTHD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.grCTHD.Click += new System.EventHandler(this.grCTHD_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(113, 65);
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label8.Location = new System.Drawing.Point(24, 65);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 20);
+            this.label8.Size = new System.Drawing.Size(93, 19);
             this.label8.TabIndex = 56;
             this.label8.Text = "Mã CTHD :";
             // 
@@ -204,9 +215,12 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(111, 662);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label7.Location = new System.Drawing.Point(24, 662);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 20);
+            this.label7.Size = new System.Drawing.Size(71, 22);
             this.label7.TabIndex = 52;
             this.label7.Text = "Ghi Chú:";
             // 
@@ -251,9 +265,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 350);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label3.Location = new System.Drawing.Point(24, 350);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 20);
+            this.label3.Size = new System.Drawing.Size(84, 19);
             this.label3.TabIndex = 49;
             this.label3.Text = "Tiền Cọc:";
             // 
@@ -299,9 +316,10 @@
             // 
             // btnDongFrm
             // 
-            this.btnDongFrm.Location = new System.Drawing.Point(517, 707);
+            this.btnDongFrm.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDongFrm.Location = new System.Drawing.Point(495, 707);
             this.btnDongFrm.Name = "btnDongFrm";
-            this.btnDongFrm.Size = new System.Drawing.Size(83, 35);
+            this.btnDongFrm.Size = new System.Drawing.Size(100, 35);
             this.btnDongFrm.TabIndex = 45;
             this.btnDongFrm.Text = "Đóng";
             this.btnDongFrm.UseVisualStyleBackColor = true;
@@ -309,7 +327,8 @@
             // 
             // btnThemHD
             // 
-            this.btnThemHD.Location = new System.Drawing.Point(48, 707);
+            this.btnThemHD.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemHD.Location = new System.Drawing.Point(28, 707);
             this.btnThemHD.Name = "btnThemHD";
             this.btnThemHD.Size = new System.Drawing.Size(171, 35);
             this.btnThemHD.TabIndex = 44;
@@ -319,9 +338,10 @@
             // 
             // btnXoaCTHD
             // 
-            this.btnXoaCTHD.Location = new System.Drawing.Point(299, 707);
+            this.btnXoaCTHD.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaCTHD.Location = new System.Drawing.Point(291, 707);
             this.btnXoaCTHD.Name = "btnXoaCTHD";
-            this.btnXoaCTHD.Size = new System.Drawing.Size(117, 35);
+            this.btnXoaCTHD.Size = new System.Drawing.Size(135, 35);
             this.btnXoaCTHD.TabIndex = 43;
             this.btnXoaCTHD.Text = "Xóa Hợp Đồng\r\n";
             this.btnXoaCTHD.UseVisualStyleBackColor = true;
@@ -330,71 +350,93 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(113, 549);
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label9.Location = new System.Drawing.Point(24, 549);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 20);
+            this.label9.Size = new System.Drawing.Size(90, 19);
             this.label9.TabIndex = 41;
             this.label9.Text = "Ngày Trả :";
             // 
             // lblNgayLap
             // 
             this.lblNgayLap.AutoSize = true;
-            this.lblNgayLap.Location = new System.Drawing.Point(115, 414);
+            this.lblNgayLap.BackColor = System.Drawing.Color.Transparent;
+            this.lblNgayLap.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayLap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.lblNgayLap.Location = new System.Drawing.Point(24, 414);
             this.lblNgayLap.Name = "lblNgayLap";
-            this.lblNgayLap.Size = new System.Drawing.Size(79, 20);
+            this.lblNgayLap.Size = new System.Drawing.Size(94, 19);
             this.lblNgayLap.TabIndex = 40;
             this.lblNgayLap.Text = "Ngày Lập :";
             // 
             // t
             // 
             this.t.AutoSize = true;
-            this.t.Location = new System.Drawing.Point(111, 481);
+            this.t.BackColor = System.Drawing.Color.Transparent;
+            this.t.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.t.Location = new System.Drawing.Point(24, 478);
             this.t.Name = "t";
-            this.t.Size = new System.Drawing.Size(108, 20);
+            this.t.Size = new System.Drawing.Size(128, 19);
             this.t.TabIndex = 39;
             this.t.Text = "Ngày Bắt Đầu :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(112, 296);
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label6.Location = new System.Drawing.Point(24, 296);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 20);
+            this.label6.Size = new System.Drawing.Size(97, 19);
             this.label6.TabIndex = 38;
             this.label6.Text = "Tiền Thuê :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(113, 237);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label5.Location = new System.Drawing.Point(24, 237);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 20);
+            this.label5.Size = new System.Drawing.Size(71, 19);
             this.label5.TabIndex = 37;
             this.label5.Text = "Phòng :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(112, 178);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label4.Location = new System.Drawing.Point(24, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 20);
+            this.label4.Size = new System.Drawing.Size(114, 19);
             this.label4.TabIndex = 36;
             this.label4.Text = "Khách Thuê :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(111, 118);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
+            this.label2.Location = new System.Drawing.Point(24, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
+            this.label2.Size = new System.Drawing.Size(70, 19);
             this.label2.TabIndex = 34;
             this.label2.Text = "Số HĐ :";
             // 
             // dateNgayLap
             // 
             this.dateNgayLap.Checked = true;
-            this.dateNgayLap.FillColor = System.Drawing.SystemColors.Window;
+            this.dateNgayLap.FillColor = System.Drawing.Color.LightPink;
             this.dateNgayLap.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dateNgayLap.ForeColor = System.Drawing.Color.Black;
             this.dateNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateNgayLap.Location = new System.Drawing.Point(239, 398);
             this.dateNgayLap.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -493,20 +535,25 @@
             this.guna2GroupBox1.Controls.Add(this.rdPhong);
             this.guna2GroupBox1.Controls.Add(this.rdKhachHang);
             this.guna2GroupBox1.Controls.Add(this.txtTimKiem);
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
+            this.guna2GroupBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox1.Location = new System.Drawing.Point(687, 1);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(781, 761);
             this.guna2GroupBox1.TabIndex = 2;
             this.guna2GroupBox1.Text = "Tra Cứu Thông Tin";
+            this.guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
             this.label10.Location = new System.Drawing.Point(22, 428);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(133, 20);
+            this.label10.Size = new System.Drawing.Size(155, 19);
             this.label10.TabIndex = 34;
             this.label10.Text = "Chi Tiết Hợp Đồng";
             // 
@@ -518,7 +565,7 @@
             this.dgvCTHD.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(45)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -528,7 +575,7 @@
             this.dgvCTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -568,13 +615,16 @@
             // rdHopDong
             // 
             this.rdHopDong.AutoSize = true;
+            this.rdHopDong.BackColor = System.Drawing.Color.Transparent;
+            this.rdHopDong.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdHopDong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
             this.rdHopDong.Location = new System.Drawing.Point(294, 114);
             this.rdHopDong.Name = "rdHopDong";
-            this.rdHopDong.Size = new System.Drawing.Size(100, 24);
+            this.rdHopDong.Size = new System.Drawing.Size(111, 23);
             this.rdHopDong.TabIndex = 31;
             this.rdHopDong.TabStop = true;
             this.rdHopDong.Text = "Hợp Đồng";
-            this.rdHopDong.UseVisualStyleBackColor = true;
+            this.rdHopDong.UseVisualStyleBackColor = false;
             this.rdHopDong.CheckedChanged += new System.EventHandler(this.rdHopDong_CheckedChanged);
             // 
             // dgvDaThongTin
@@ -585,7 +635,7 @@
             this.dgvDaThongTin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(45)))));
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -595,7 +645,7 @@
             this.dgvDaThongTin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -635,25 +685,31 @@
             // rdPhong
             // 
             this.rdPhong.AutoSize = true;
+            this.rdPhong.BackColor = System.Drawing.Color.Transparent;
+            this.rdPhong.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
             this.rdPhong.Location = new System.Drawing.Point(175, 114);
             this.rdPhong.Name = "rdPhong";
-            this.rdPhong.Size = new System.Drawing.Size(72, 24);
+            this.rdPhong.Size = new System.Drawing.Size(81, 23);
             this.rdPhong.TabIndex = 27;
             this.rdPhong.TabStop = true;
             this.rdPhong.Text = "Phòng";
-            this.rdPhong.UseVisualStyleBackColor = true;
+            this.rdPhong.UseVisualStyleBackColor = false;
             this.rdPhong.CheckedChanged += new System.EventHandler(this.rdPhong_CheckedChanged);
             // 
             // rdKhachHang
             // 
             this.rdKhachHang.AutoSize = true;
+            this.rdKhachHang.BackColor = System.Drawing.Color.Transparent;
+            this.rdKhachHang.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
             this.rdKhachHang.Location = new System.Drawing.Point(25, 114);
             this.rdKhachHang.Name = "rdKhachHang";
-            this.rdKhachHang.Size = new System.Drawing.Size(106, 24);
+            this.rdKhachHang.Size = new System.Drawing.Size(124, 23);
             this.rdKhachHang.TabIndex = 26;
             this.rdKhachHang.TabStop = true;
             this.rdKhachHang.Text = "Khách Thuê";
-            this.rdKhachHang.UseVisualStyleBackColor = true;
+            this.rdKhachHang.UseVisualStyleBackColor = false;
             this.rdKhachHang.CheckedChanged += new System.EventHandler(this.rdKhachHang_CheckedChanged);
             // 
             // txtTimKiem
@@ -688,6 +744,7 @@
             this.ClientSize = new System.Drawing.Size(1480, 774);
             this.Controls.Add(this.grCTHD);
             this.Controls.Add(this.guna2GroupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmThemHopDong";
             this.Text = "Chi Tiết Hợp Đồng";
             this.Load += new System.EventHandler(this.frmThemHopDong_Load);

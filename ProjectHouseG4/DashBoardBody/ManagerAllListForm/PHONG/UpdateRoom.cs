@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.PHONG
         public UpdateRoom(Form1 form1)
         {
             InitializeComponent();
+            SetFormRegion();
             this.form1 = form1 ?? throw new ArgumentNullException(nameof(form1), "Form quản lý chưa được khởi tạo");
         }
 
@@ -29,6 +31,19 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.PHONG
             txtThongTin.Clear();
             txtGiaPhong.Clear();
             txtDienTich.Clear();
+        }
+
+        private void SetFormRegion()
+        {
+            int radius = 25; // Độ bo tròn của góc
+            GraphicsPath path = new GraphicsPath();
+            path.StartFigure();
+            path.AddArc(new Rectangle(0, 0, radius, radius), 180, 90);
+            path.AddArc(new Rectangle(this.Width - radius, 0, radius, radius), 270, 90);
+            path.AddArc(new Rectangle(this.Width - radius, this.Height - radius, radius, radius), 0, 90);
+            path.AddArc(new Rectangle(0, this.Height - radius, radius, radius), 90, 90);
+            path.CloseFigure();
+            this.Region = new Region(path);
         }
 
         private void btnCapNhat_Click(object sender, EventArgs e)
@@ -143,6 +158,14 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.PHONG
             }
         }
 
-       
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

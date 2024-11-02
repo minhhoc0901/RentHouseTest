@@ -13,6 +13,7 @@ using RentHouse_DAL.Entity;
 using BUS;
 using RenHouse_BUS;
 using RentHouse.DashBoardBody.ManagerAllListForm.HOADON;
+using RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG;
 
 namespace RentHouse.DashBoardBody.ManagerAllListForm
 {
@@ -89,6 +90,30 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm
                 .ToList();
             BindGridCTHD(CTHoaDon);
 
+        }
+
+        private void dgvHD_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnInHoaDon_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvHD.SelectedRows.Count > 0)
+                {
+                    var selectedRow = dgvHD.SelectedRows[0];
+                    int iDHD = Convert.ToInt32(selectedRow.Cells[0].Value);
+
+                    frmInHoaDon frmInHoaDon = new frmInHoaDon(iDHD);
+                    frmInHoaDon.ShowDialog();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Vui lòng chọn hợp đồng cần in");
+            }
         }
     }
 }

@@ -21,6 +21,12 @@ namespace RentHouse.DashBoardBody
             SetFormRegion(); // Set góc bo tròn cho form
             this.FormClosed += new FormClosedEventHandler(Form_Dashboard_FormClosed);
             button1.Click += button1_Click; // Add click event handler for button1
+
+            RegisterButtonEvents(button1); // Register button1 events
+            RegisterButtonEvents(button2); // Register button2 events
+            RegisterButtonEvents(button3); // Register button3 events
+            RegisterButtonEvents(button5); // Register button5 events
+            RegisterButtonEvents(button6); // Register button6 events
         }
 
         private void Form_Dashboard_FormClosed(object sender, FormClosedEventArgs e)
@@ -49,6 +55,25 @@ namespace RentHouse.DashBoardBody
             this.Region = new Region(path);
         }
 
+        private void RegisterButtonEvents(Button button)
+        {
+            button.MouseEnter += (sender, e) => Button_MouseHover(sender, e, button, true);
+            button.MouseLeave += (sender, e) => Button_MouseHover(sender, e, button, false);
+        }
+
+        private void Button_MouseHover(object sender, EventArgs e, Button button, bool isMouseEnter)
+        {
+            if (isMouseEnter)
+            {
+                button.BackColor = Color.FromArgb(128, button.BackColor); // Set độ mờ
+                button.ForeColor = Color.White; // Chuyển màu chữ thành màu trắng
+            }
+            else
+            {
+                button.BackColor = Color.FromArgb(255, button.BackColor); // Khôi phục độ mờ
+                button.ForeColor = Color.FromArgb(183, 105, 225); // Khôi phục màu chữ
+            }
+        }
         private void ShowFormInPanel(Form form)
         {
             form.TopLevel = false;
@@ -82,16 +107,11 @@ namespace RentHouse.DashBoardBody
             ShowFormInPanel(form3);
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //FormThem form4 = new FormThem();
-            //ShowFormInPanel(form4);
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //frmQLHD frmQLHD = new frmQLHD();
-            //ShowFormInPanel(frmQLHD);
+            frmQLHD frmQLHD = new frmQLHD();
+            ShowFormInPanel(frmQLHD);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -110,11 +130,14 @@ namespace RentHouse.DashBoardBody
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

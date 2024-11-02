@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQLHD));
             this.cbHienThiHD = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
@@ -47,15 +48,20 @@
             this.colTinhTrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGhiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTimKiemHD = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnInHD = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLHopDong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cbHienThiHD
             // 
             this.cbHienThiHD.AutoSize = true;
-            this.cbHienThiHD.Location = new System.Drawing.Point(260, 107);
+            this.cbHienThiHD.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbHienThiHD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.cbHienThiHD.Location = new System.Drawing.Point(271, 100);
             this.cbHienThiHD.Name = "cbHienThiHD";
-            this.cbHienThiHD.Size = new System.Drawing.Size(200, 20);
+            this.cbHienThiHD.Size = new System.Drawing.Size(289, 27);
             this.cbHienThiHD.TabIndex = 36;
             this.cbHienThiHD.Text = "Hiển thị hợp đồng đã kết thúc";
             this.cbHienThiHD.UseVisualStyleBackColor = true;
@@ -88,7 +94,7 @@
             this.btnXoa.FocusedColor = System.Drawing.Color.Transparent;
             this.btnXoa.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(1000, 96);
+            this.btnXoa.Location = new System.Drawing.Point(987, 96);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PressedColor = System.Drawing.Color.Transparent;
             this.btnXoa.PressedDepth = 20;
@@ -112,7 +118,7 @@
             this.btnUpDate.FocusedColor = System.Drawing.Color.Transparent;
             this.btnUpDate.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnUpDate.ForeColor = System.Drawing.Color.White;
-            this.btnUpDate.Location = new System.Drawing.Point(855, 96);
+            this.btnUpDate.Location = new System.Drawing.Point(837, 96);
             this.btnUpDate.Name = "btnUpDate";
             this.btnUpDate.PressedColor = System.Drawing.Color.Transparent;
             this.btnUpDate.PressedDepth = 20;
@@ -157,12 +163,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvQLHopDong.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvQLHopDong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvQLHopDong.Location = new System.Drawing.Point(3, 141);
+            this.dgvQLHopDong.Location = new System.Drawing.Point(27, 163);
             this.dgvQLHopDong.Name = "dgvQLHopDong";
             this.dgvQLHopDong.RowHeadersVisible = false;
             this.dgvQLHopDong.RowHeadersWidth = 51;
             this.dgvQLHopDong.RowTemplate.Height = 24;
-            this.dgvQLHopDong.Size = new System.Drawing.Size(1085, 533);
+            this.dgvQLHopDong.Size = new System.Drawing.Size(1104, 533);
             this.dgvQLHopDong.TabIndex = 29;
             this.dgvQLHopDong.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvQLHopDong.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -185,6 +191,7 @@
             this.dgvQLHopDong.ThemeStyle.RowsStyle.Height = 24;
             this.dgvQLHopDong.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvQLHopDong.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvQLHopDong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLHopDong_CellContentClick);
             // 
             // colSoHopDong
             // 
@@ -269,7 +276,7 @@
             this.txtTimKiemHD.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTimKiemHD.ForeColor = System.Drawing.Color.Black;
             this.txtTimKiemHD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.txtTimKiemHD.Location = new System.Drawing.Point(7, 96);
+            this.txtTimKiemHD.Location = new System.Drawing.Point(23, 96);
             this.txtTimKiemHD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTimKiemHD.Name = "txtTimKiemHD";
             this.txtTimKiemHD.PasswordChar = '\0';
@@ -281,21 +288,61 @@
             this.txtTimKiemHD.TextOffset = new System.Drawing.Point(0, 1);
             this.txtTimKiemHD.TextChanged += new System.EventHandler(this.txtTimKiemHD_TextChanged);
             // 
+            // btnInHD
+            // 
+            this.btnInHD.Animated = true;
+            this.btnInHD.BackColor = System.Drawing.Color.Transparent;
+            this.btnInHD.BorderRadius = 5;
+            this.btnInHD.BorderThickness = 1;
+            this.btnInHD.DefaultAutoSize = true;
+            this.btnInHD.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnInHD.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnInHD.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnInHD.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnInHD.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.btnInHD.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnInHD.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btnInHD.ForeColor = System.Drawing.Color.White;
+            this.btnInHD.Location = new System.Drawing.Point(654, 96);
+            this.btnInHD.Name = "btnInHD";
+            this.btnInHD.PressedColor = System.Drawing.Color.Transparent;
+            this.btnInHD.PressedDepth = 20;
+            this.btnInHD.Size = new System.Drawing.Size(137, 31);
+            this.btnInHD.TabIndex = 37;
+            this.btnInHD.Text = "In Hợp Đồng";
+            this.btnInHD.Click += new System.EventHandler(this.btnInHD_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::RentHouse.Properties.Resources.printer;
+            this.pictureBox1.Location = new System.Drawing.Point(607, 96);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 36);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 38;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmQLHD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1091, 674);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
+            this.ClientSize = new System.Drawing.Size(1136, 721);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnInHD);
             this.Controls.Add(this.cbHienThiHD);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnUpDate);
             this.Controls.Add(this.dgvQLHopDong);
             this.Controls.Add(this.txtTimKiemHD);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmQLHD";
             this.Text = "frmQLHD";
             this.Load += new System.EventHandler(this.frmQLHD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLHopDong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,5 +366,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgayKetThuc;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTinhTrang;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGhiChu;
+        private Guna.UI2.WinForms.Guna2Button btnInHD;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
