@@ -1,4 +1,6 @@
-﻿using RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG;
+﻿using RentHouse.DashBoardBody;
+using RentHouse.DashBoardBody.ManagerAllListForm;
+using RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,7 @@ namespace RentHouse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmQLHD());
+            Application.Run(new Form_Login());
         }
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvPhong = new Guna.UI2.WinForms.Guna2DataGridView();
             this.col_MaPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_ThongTin = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,22 +43,27 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
             this.btnCapNhat = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvPhong
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvPhong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvPhong.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvPhong.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
             this.dgvPhong.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(34)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPhong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 10F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPhong.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvPhong.ColumnHeadersHeight = 40;
             this.dgvPhong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvPhong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -67,22 +72,22 @@
             this.col_GiaPhong,
             this.col_DienTich,
             this.col_TrangThai});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPhong.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPhong.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvPhong.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvPhong.Location = new System.Drawing.Point(12, 165);
+            this.dgvPhong.Location = new System.Drawing.Point(27, 163);
             this.dgvPhong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvPhong.Name = "dgvPhong";
             this.dgvPhong.RowHeadersVisible = false;
             this.dgvPhong.RowHeadersWidth = 51;
             this.dgvPhong.RowTemplate.Height = 24;
-            this.dgvPhong.Size = new System.Drawing.Size(1085, 533);
+            this.dgvPhong.Size = new System.Drawing.Size(1106, 533);
             this.dgvPhong.TabIndex = 14;
             this.dgvPhong.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvPhong.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -105,36 +110,42 @@
             this.dgvPhong.ThemeStyle.RowsStyle.Height = 24;
             this.dgvPhong.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvPhong.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvPhong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhong_CellContentClick_1);
             // 
             // col_MaPhong
             // 
             this.col_MaPhong.HeaderText = "Mã phòng";
             this.col_MaPhong.MinimumWidth = 6;
             this.col_MaPhong.Name = "col_MaPhong";
+            this.col_MaPhong.Width = 217;
             // 
             // col_ThongTin
             // 
             this.col_ThongTin.HeaderText = "Thông tin";
             this.col_ThongTin.MinimumWidth = 6;
             this.col_ThongTin.Name = "col_ThongTin";
+            this.col_ThongTin.Width = 217;
             // 
             // col_GiaPhong
             // 
             this.col_GiaPhong.HeaderText = "Giá phòng";
             this.col_GiaPhong.MinimumWidth = 6;
             this.col_GiaPhong.Name = "col_GiaPhong";
+            this.col_GiaPhong.Width = 217;
             // 
             // col_DienTich
             // 
             this.col_DienTich.HeaderText = "Diện tích";
             this.col_DienTich.MinimumWidth = 6;
             this.col_DienTich.Name = "col_DienTich";
+            this.col_DienTich.Width = 217;
             // 
             // col_TrangThai
             // 
             this.col_TrangThai.HeaderText = "Trạng thái";
             this.col_TrangThai.MinimumWidth = 6;
             this.col_TrangThai.Name = "col_TrangThai";
+            this.col_TrangThai.Width = 217;
             // 
             // btnCapNhatTrangThai
             // 
@@ -151,7 +162,7 @@
             this.btnCapNhatTrangThai.FocusedColor = System.Drawing.Color.Transparent;
             this.btnCapNhatTrangThai.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnCapNhatTrangThai.ForeColor = System.Drawing.Color.White;
-            this.btnCapNhatTrangThai.Location = new System.Drawing.Point(906, 116);
+            this.btnCapNhatTrangThai.Location = new System.Drawing.Point(914, 115);
             this.btnCapNhatTrangThai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCapNhatTrangThai.Name = "btnCapNhatTrangThai";
             this.btnCapNhatTrangThai.PressedColor = System.Drawing.Color.Transparent;
@@ -174,36 +185,37 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(193, 116);
+            this.guna2TextBox1.Location = new System.Drawing.Point(296, 110);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TextBox1.PlaceholderText = "Tìm kiếm.....";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(227, 31);
+            this.guna2TextBox1.Size = new System.Drawing.Size(234, 35);
             this.guna2TextBox1.TabIndex = 19;
             this.guna2TextBox1.TextOffset = new System.Drawing.Point(0, 1);
             this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 119);
+            this.comboBox1.Location = new System.Drawing.Point(63, 115);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 27);
+            this.comboBox1.Size = new System.Drawing.Size(110, 27);
             this.comboBox1.TabIndex = 18;
-            this.comboBox1.Text = "Lọc";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(107)))), ((int)(((byte)(229)))));
-            this.label1.Location = new System.Drawing.Point(399, 23);
+            this.label1.Location = new System.Drawing.Point(369, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(309, 51);
             this.label1.TabIndex = 17;
@@ -224,7 +236,7 @@
             this.btnXoa.FocusedColor = System.Drawing.Color.Transparent;
             this.btnXoa.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(786, 115);
+            this.btnXoa.Location = new System.Drawing.Point(751, 115);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PressedColor = System.Drawing.Color.Transparent;
@@ -249,7 +261,7 @@
             this.btnCapNhat.FocusedColor = System.Drawing.Color.Transparent;
             this.btnCapNhat.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnCapNhat.ForeColor = System.Drawing.Color.White;
-            this.btnCapNhat.Location = new System.Drawing.Point(623, 116);
+            this.btnCapNhat.Location = new System.Drawing.Point(613, 115);
             this.btnCapNhat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.PressedColor = System.Drawing.Color.Transparent;
@@ -259,13 +271,35 @@
             this.btnCapNhat.Text = "Cập nhật";
             this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RentHouse.Properties.Resources.Loc;
+            this.pictureBox2.Location = new System.Drawing.Point(27, 111);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::RentHouse.Properties.Resources.loupe;
+            this.pictureBox1.Location = new System.Drawing.Point(238, 111);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
-            this.ClientSize = new System.Drawing.Size(1109, 721);
+            this.ClientSize = new System.Drawing.Size(1136, 721);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dgvPhong);
             this.Controls.Add(this.btnCapNhatTrangThai);
             this.Controls.Add(this.guna2TextBox1);
@@ -281,6 +315,8 @@
             this.TransparencyKey = System.Drawing.Color.DeepSkyBlue;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,5 +336,7 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button btnXoa;
         private Guna.UI2.WinForms.Guna2Button btnCapNhat;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

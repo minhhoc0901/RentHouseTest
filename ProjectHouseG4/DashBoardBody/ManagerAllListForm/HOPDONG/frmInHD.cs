@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,7 +27,15 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
         private void frmInHD_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'quanLyPhongTro2DataSet.ReportViewHD' table. You can move, or remove it, as needed.
+            this.reportViewHDTableAdapter.Fill(this.quanLyPhongTro2DataSet.ReportViewHD);
+            // TODO: This line of code loads data into the 'quanLyPhongTro2DataSet.ReportViewHD' table. You can move, or remove it, as needed.
             //this.reportViewHDTableAdapter.Fill(this.quanLyPhongTro2DataSet.ReportViewHD);
+            PageSettings pageSettings = new PageSettings();
+            pageSettings.PaperSize = new PaperSize("A4", 940, 1800); // Kích thước A4
+            pageSettings.Margins = new Margins(10, 25, 25, 25); // Lề: 50px
+
+            // Áp dụng thuộc tính trang cho báo cáo
+            this.rptHD.SetPageSettings(pageSettings);
 
             this.rptHD.RefreshReport();
         }
@@ -53,7 +62,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
 
 
                        };
-            rptHD.LocalReport.ReportPath = @"C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\ReportHD.rdlc";
+            rptHD.LocalReport.ReportPath = @"C:\Users\admin\Desktop\HG4\RentHouseTest\ProjectHouseG4\DashBoardBody\ManagerAllListForm\HOPDONG\ReportHD.rdlc";
             var sourcecthd = new ReportDataSource("DataSet1", CTHD);
             rptHD.LocalReport.DataSources.Clear();
             rptHD.LocalReport.DataSources.Add(sourcecthd);
@@ -61,6 +70,8 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
             rptHD.RefreshReport();
 
         }
+
+
 
     }
 }

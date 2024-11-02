@@ -57,14 +57,19 @@
             // 
             // rptHD
             // 
+            this.rptHD.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rptHD.DocumentMapWidth = 1;
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.ReportViewHDBindingSource;
             this.rptHD.LocalReport.DataSources.Add(reportDataSource1);
             this.rptHD.LocalReport.ReportEmbeddedResource = "RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG.ReportHD.rdlc";
             this.rptHD.Location = new System.Drawing.Point(0, 0);
             this.rptHD.Name = "rptHD";
+            this.rptHD.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rptHD.ServerReport.BearerToken = null;
-            this.rptHD.Size = new System.Drawing.Size(1090, 929);
+            this.rptHD.Size = new System.Drawing.Size(1194, 1053);
             this.rptHD.TabIndex = 0;
             this.rptHD.Load += new System.EventHandler(this.rptHD_Load);
             // 
@@ -76,10 +81,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1091, 929);
+            this.ClientSize = new System.Drawing.Size(1194, 1055);
             this.Controls.Add(this.rptHD);
             this.Name = "frmInHD";
-            this.Text = "frmInHD";
+            this.Text = "In Hợp Đồng";
             this.Load += new System.EventHandler(this.frmInHD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ReportViewHDBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanLyPhongTro2DataSet)).EndInit();

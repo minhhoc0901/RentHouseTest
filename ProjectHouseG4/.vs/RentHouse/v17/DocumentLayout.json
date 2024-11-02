@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\g4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\g4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\g4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frminhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\g4\\renthousetest\\projecthouseg4\\dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:dashboardbody\\manageralllistform\\hopdong\\frmqlhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|c:\\users\\admin\\desktop\\hg4\\renthousetest\\projecthouseg4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0296E8A3-3D9E-4C5E-863C-333F658A90EC}|RentHouse_GUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmInHD.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:11:47.64Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -52,40 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmQLHD.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAwwGAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:25:35.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmInHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs [Design]",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmInHD.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\HG4\\RentHouseTest\\ProjectHouseG4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:46:56.843Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmQLHD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "RelativeDocumentMoniker": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\G4\\RentHouseTest\\ProjectHouseG4\\DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs [Design]",
-              "RelativeToolTip": "DashBoardBody\\ManagerAllListForm\\HOPDONG\\frmQLHD.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:43:39.39Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T07:57:07.193Z",
+              "EditorCaption": ""
             }
           ]
         },

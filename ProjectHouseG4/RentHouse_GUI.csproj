@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DashBoardBody\ManagerAllListForm\HOADON\frmInHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoardBody\ManagerAllListForm\HOADON\frmInHoaDon.Designer.cs">
+      <DependentUpon>frmInHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="DashBoardBody\ManagerAllListForm\HOPDONG\frmInHD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,10 +137,10 @@
     <Compile Include="DashBoardBody\ManagerAllListForm\HOADON\Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\Form6.cs">
+    <Compile Include="DashBoardBody\ManagerAllListForm\QLDV\Form6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashBoardBody\ManagerAllListForm\Form6.Designer.cs">
+    <Compile Include="DashBoardBody\ManagerAllListForm\QLDV\Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
     <Compile Include="DashBoardBody\ManagerAllListForm\PHONG\UpdateRoom.cs">
@@ -168,7 +174,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyPhongTro2DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyPhongTro2DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyPhongTro2DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\HOADON\frmInHoaDon.resx">
+      <DependentUpon>frmInHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\HOADON\ReportHoaDon.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\HOPDONG\frmInHD.resx">
       <DependentUpon>frmInHD.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,7 +216,7 @@
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\HOADON\Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\Form6.resx">
+    <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\QLDV\Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardBody\ManagerAllListForm\PHONG\UpdateRoom.resx">
@@ -250,6 +267,17 @@
     <None Include="QuanLyPhongTro2DataSet.xss">
       <DependentUpon>QuanLyPhongTro2DataSet.xsd</DependentUpon>
     </None>
+    <None Include="QuanLyPhongTro2DataSet1.xsc">
+      <DependentUpon>QuanLyPhongTro2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyPhongTro2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyPhongTro2DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyPhongTro2DataSet1.xss">
+      <DependentUpon>QuanLyPhongTro2DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Resources\brgLoginUpdate.png" />
   </ItemGroup>
   <ItemGroup>
@@ -274,6 +302,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\loupe.png" />
+    <None Include="Resources\Loc.png" />
+    <None Include="Resources\Find.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\house.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\bill.png" />
+    <None Include="Resources\hopdong.png" />
+    <None Include="Resources\services.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

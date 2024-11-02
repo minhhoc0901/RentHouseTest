@@ -108,6 +108,11 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOPDONG
                 MessageBox.Show("Vui lòng chọn hợp đồng cần in");
             }
         }
+
+        private void dgvQLHopDong_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 

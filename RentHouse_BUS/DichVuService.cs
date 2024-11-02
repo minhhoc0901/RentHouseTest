@@ -29,6 +29,7 @@ namespace RenHouse_BUS
             DichVu dvUpdate = context.DichVus.Find(dv.MaDV);
             dvUpdate.TenDV = dv.TenDV;
             dvUpdate.SoTien = dv.SoTien;
+            dvUpdate.GhiChu = dv.GhiChu;
             context.SaveChanges();
         }
         public void DeleteDichVu(DichVu dv)
