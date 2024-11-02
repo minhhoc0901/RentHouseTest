@@ -452,7 +452,7 @@ namespace RentHouse.DashBoardBody.ManagerAllListForm.HOADON
                 double totalServiceAmount = CalculateTotalServiceAmount(idHD);
                 txtTongtienDV.Text = totalServiceAmount.ToString();
             }
-            txtTongTien.Text = (double.Parse(txtTongtienDV.Text) + double.Parse(txtTienPhat.Text) + double.Parse(txtGiaThue.Text) - double.Parse(txtTienGiam.Text) - double.Parse(txtTienTra.Text)).ToString();
+            txtTongTien.Text = (double.Parse(txtTongtienDV.Text) + double.Parse(txtTienPhat.Text) + double.Parse(txtGiaThue.Text) - double.Parse(txtTienGiam.Text)).ToString();
         }
         //Thêm chi tiết hóa đơn
         private void btnTHemCTHD_Click(object sender, EventArgs e)
